@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj": {}
+    "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj": {
+    "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj",
+        "projectUniqueName": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj",
         "projectName": "Full-Text Search-A2",
-        "projectPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj",
+        "projectPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj",
         "packagesPath": "C:\\Users\\h.sabour\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\obj\\",
+        "outputPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\h.sabour\\AppData\\Roaming\\NuGet\\NuGet.Config",
