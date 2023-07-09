@@ -15,13 +15,15 @@
     {
         private static readonly char[] delimeterChars = new char[] {' ', ',', '=', '-', '|', '>', '<', '(', ')', '?', '!', '.', '@', '/', '_', '\\', ':', '\"', '*'};
 
-        public static void CreateInvertedIndex(Dictionary<string, HashSet<int>> invertedIndex)
+        public static HashSet<int> CreateInvertedIndex(Dictionary<string, HashSet<int>> invertedIndex)
         {
+            HashSet<int> documentsNumber = new();
             foreach (string file in Directory.EnumerateFiles(@"C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\EnglishData"))
             {
                 var upperedFileText = File.ReadAllText(file).ToUpper();
                 Document document = new Document(int.Parse(Path.GetFileName(file)), upperedFileText);
-                    var splitedDocument = upperedFileText.Split(delimeterChars);
+                documentsNumber.Add(document.Number);
+                var splitedDocument = upperedFileText.Split(delimeterChars);
                     foreach (var word in splitedDocument)
                     {
                         if (!invertedIndex.ContainsKey(word))
@@ -30,11 +32,12 @@
                             invertedIndex[word].Add(document.Number);
                     }
             }
+            return documentsNumber;
         }
 
-        public static HashSet<int> FindWord(List<string> input, Dictionary<string, HashSet<int>> invertedIndex)
+        public static HashSet<int> FindWord(List<string> input, Dictionary<string, HashSet<int>> invertedIndex, HashSet<int> documentsNumber)
         {
-            HashSet<int> necessaryWordsDocsNumbers = new();
+            HashSet<int> necessaryWordsDocsNumbers = new(documentsNumber);
             HashSet<int> atLeastOneDocsNumbers = new();
             HashSet<int> mustNotBeDocsNumbers = new();
             foreach(string word in input)
@@ -49,16 +52,12 @@
  
                 // These words should be in the documents
                 else
-                {
-                    if(!necessaryWordsDocsNumbers.Any())
-                        necessaryWordsDocsNumbers.UnionWith(invertedIndex[word]);
-                    else
-                        necessaryWordsDocsNumbers.IntersectWith(invertedIndex[word]);
-                }
+                    necessaryWordsDocsNumbers.IntersectWith(invertedIndex[word]);
             }
             
             var foundDocsNumbers = new HashSet<int>(necessaryWordsDocsNumbers);
-            foundDocsNumbers.IntersectWith(atLeastOneDocsNumbers);
+            if(atLeastOneDocsNumbers.Any())
+                foundDocsNumbers.IntersectWith(atLeastOneDocsNumbers);
             foundDocsNumbers.ExceptWith(mustNotBeDocsNumbers);
             return foundDocsNumbers;
         }
@@ -67,11 +66,11 @@
         {
             var invertedIndex = new Dictionary<string, HashSet<int>>();
             
-            CreateInvertedIndex(invertedIndex);
+            var documentsNumber = CreateInvertedIndex(invertedIndex);
             
             var input = Console.ReadLine().ToUpper().Split(' ').ToList();
 
-            var foundDocsNumbers = FindWord(input, invertedIndex);
+            var foundDocsNumbers = FindWord(input, invertedIndex, documentsNumber);
 
             foreach(var num in foundDocsNumbers)
                 Console.WriteLine(num);
