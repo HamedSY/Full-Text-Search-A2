@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "u9RncR0eub6ImlkW+Svn8EZUcFiWbs+4dxpL51eIB1UZAXI6YtIJ0HPhfmVmgnb0wqWig9Zto/rtyZMU4gKahQ==",
+  "dgSpecHash": "MeObrB7EkOh2cWVCmHqgPMt2F7c/wz6IsVdU7xKSV7mGsfy181dA2CXm04gcxOm6OkldYXZdHlo3+7u32nNEsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Full-Text Search-A2\\Full-Text Search-A2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\h.sabour\\Documents\\RiderProjects\\FullTextSearchA2\\FullTextSearchA2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\h.sabour\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\h.sabour\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
