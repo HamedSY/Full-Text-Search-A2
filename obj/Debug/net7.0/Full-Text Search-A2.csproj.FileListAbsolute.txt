@@ -1,0 +1,15 @@
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\bin\Debug\net7.0\Full-Text Search-A2.exe
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\bin\Debug\net7.0\Full-Text Search-A2.deps.json
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\bin\Debug\net7.0\Full-Text Search-A2.runtimeconfig.json
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\bin\Debug\net7.0\Full-Text Search-A2.dll
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\bin\Debug\net7.0\Full-Text Search-A2.pdb
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.csproj.AssemblyReference.cache
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.AssemblyInfoInputs.cache
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.AssemblyInfo.cs
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.csproj.CoreCompileInputs.cache
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.dll
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\refint\Full-Text Search-A2.dll
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.pdb
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\Full-Text Search-A2.genruntimeconfig.cache
+C:\Users\h.sabour\Documents\VScode\C#\Star-Academy\Full-Text Search-A2\obj\Debug\net7.0\ref\Full-Text Search-A2.dll
